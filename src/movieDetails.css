@@ -1,0 +1,1044 @@
+.body {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body .Link img {
+    margin-left: 160px;
+    margin-top: 40px;
+}
+
+.body .runtime {
+    display: flex;
+    margin-left: 160px;
+}
+
+.body .runtime h1{
+    color:#798c99;
+    font-size: 21px;
+    margin: 20px 15px 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body .runtime p {
+    color:#798c99;
+    margin: 10px 15px 0 0;
+    font-size: 26px;
+}
+
+.body .runtime h2 {
+    color: black;
+    margin: 15px 15px 8px 0;
+    background-color: #798c99;
+    border-radius: 5px;
+    font-size: 19px;
+    text-align: center;
+    padding: 4px;
+}
+
+.body .title h1{
+    color: white;
+    width: 650px;
+    margin-left: 160px;
+    margin-top: 30px;
+    font-size: 80px;
+}
+
+.body .rottenImdb {
+    margin-left: 160px;
+    display: flex;
+}
+
+.body .rottenImdb img {
+    margin-left: 20px;
+    background-color: #ff9f1b;
+    padding: 7px;
+    height: 30px;
+    width: 40px;
+    color: black;
+    border-radius: 5px 0px 0px 5px;    
+}
+
+.body .rottenImdb h2 {
+    margin-top: 0px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #798c99;
+    border-radius: 0px 5px 5px 0px;
+    height: 22px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.body .rottenImdb .rotten {
+    background-color: red;
+}
+
+.body .favorite {
+    visibility: visible;
+    background-color: black;
+    display: flex;
+    margin-left: 450px;
+    margin-top: -55px;
+    height: 45px;
+    width: 180px;
+}
+.body .favorite h2 {
+    margin-left: -28px;
+    margin-top: -1px;
+    width: 170px;
+    color: #798c99;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #798c99;
+    border-radius: 5px;
+    height: 22px;
+    padding: 10px;
+    text-align: right;
+}
+
+.body .favorite img {
+    width: 20px;
+}
+
+.body .favorited {
+    visibility: hidden;
+    display: flex;
+    margin-left: 465px;
+    margin-top: -61px;
+    height: 45px;
+    width: 170px;
+}
+.body .favorited h2 {
+    background-color: red;
+    margin-left: -15px;
+    width: 104px;
+    color: white;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #798c99;
+    border-radius: 5px;
+    height: 22px;
+    padding: 10px;
+    text-align: right;
+    position: absolute;
+}
+
+.body .favorited img {
+    margin-top: 25px;
+    width: 20px;
+    z-index: 9;
+}
+
+.body .plot h1 {
+    color: #798c99;
+    margin-left: 160px;
+    margin-top: 50px;
+    font-size: 21px;
+}
+
+.body .plot h2 {
+    color: white;
+    margin-left: 160px;
+    width: 500px;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body .technical {
+    display: flex;
+    margin: 48px 15px 8px 0;
+}
+
+.body .cast h1 {
+    color: #798c99;
+    margin-left: 160px;
+    font-size: 18px;
+}
+
+.body .cast h2 {
+    color: white;
+    display: block;
+    width: 138px;
+    margin-left: 160px;
+    line-height: 35px;
+    font-size: 17px;
+}
+
+.body .genre h1 {
+    color: #798c99;
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+.body .genre h2 {
+    color: white;
+    display: block;
+    width: 138px;
+    margin-left: 70px;
+    line-height: 35px;
+    font-size: 17px;
+}
+
+.body .director h1 {
+    color: #798c99;
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+.body .director h2 {
+    color: white;
+    display: block;
+    width: 138px;
+    margin-left: 70px;
+    line-height: 35px;
+    font-size: 17px;
+}
+
+.body .poster {
+    position: absolute;
+    left: 1000px;
+    top: 250px;
+}
+
+.body .poster img {
+    width: 480px;
+    height: 640px;
+    border-radius: 15px;
+}
+
+@media(max-width: 2560px) {
+
+    .body .Link img {
+        margin-left: 475px;
+        margin-top: 40px;
+    }
+
+    .body .runtime {
+        display: flex;
+        margin-left: 475px;
+    }
+
+    .body .title h1{
+        margin-left: 475px;
+    }
+
+    .body .rottenImdb {
+        margin-left: 465px;
+    }
+
+    .body .favorite {
+        margin-left: 775px;
+    }
+
+    .body .favorited {
+        margin-left: 775px;
+    }
+
+    .body .plot h1 {
+        margin-left: 475px;
+    }
+
+    .body .plot h2 {
+        margin-left: 475px;
+    }
+
+    .body .technical {
+        margin-left: 320px;
+    }
+
+    .body .poster {
+        left: 1200px
+    }
+
+}
+
+@media(max-width: 1920px) {
+
+    .body .logo {
+        margin-left: 250px;
+    }
+    .body .Link img {
+        margin-left: 400px;
+        margin-top: 40px;
+    }
+
+    .body .runtime {
+        display: flex;
+        margin-left: 400px;
+    }
+
+    .body .title h1{
+        margin-left: 400px;
+    }
+
+    .body .rottenImdb {
+        margin-left: 390px;
+    }
+
+    .body .favorite {
+        margin-left: 700px;
+    }
+
+    .body .favorited {
+        margin-left: 700px;
+    }
+
+    .body .plot h1 {
+        margin-left: 400px;
+    }
+
+    .body .plot h2 {
+        margin-left: 400px;
+    }
+
+    .body .technical {
+        margin-left: 240px;
+    }
+
+    .body .poster {
+        left: 1000px;
+        top: 170px;
+    }
+}
+
+@media(max-width: 1680px) {
+
+    .body .logo {
+        margin-left: 120px;
+        margin-top: 10px;
+    
+    }
+
+    .body .Link img {
+        margin-left: 270px;
+        margin-top: 40px;
+    }
+
+    .body .runtime {
+        display: flex;
+        margin-left: 270px;
+    }
+
+    .body .title h1{
+        margin-left: 270px;
+    }
+
+    .body .rottenImdb {
+        margin-left: 270px;
+    }
+
+    .body .favorite {
+        margin-left: 575px;
+    }
+
+    .body .favorited {
+        margin-left: 575px;
+    }
+
+    .body .plot h1 {
+        margin-left: 270px;
+    }
+
+    .body .plot h2 {
+        margin-left: 270px;
+    }
+
+    .body .technical {
+        margin-left: 110px;
+        margin-top: 10px;
+    }
+
+    .body .poster {
+        left: 1000px;
+        top: 100px;
+    }
+
+}
+
+@media(max-width: 1440px) {
+
+    .body .logo {
+        margin-left: 120px;
+    }
+    .body .Link img {
+        margin-left: 270px;
+        margin-top: 40px;
+    }
+
+    .body .runtime {
+        display: flex;
+        margin-left: 270px;
+    }
+
+    .body .title h1{
+        margin-left: 270px;
+    }
+
+    .body .rottenImdb {
+        margin-left: 260px;
+    }
+
+    .body .favorite {
+        margin-left: 560px;
+    }
+
+    .body .favorited {
+        margin-left: 560px;
+    }
+
+    .body .plot h1 {
+        margin-left: 280px;
+    }
+
+    .body .plot h2 {
+        margin-left: 280px;
+    }
+
+    .body .technical {
+        margin-left: 120px;
+    }
+
+    .body .poster {
+        left: 860px;
+        top: 140px;
+    }
+
+    .body .poster img {
+        width: 420px;
+        height: 580px;
+    }
+}
+
+@media(max-width: 1024px) {
+
+    .body .logo {
+        margin-left: 30px;
+        margin-top: 30px;
+    
+    }
+    .body .logo img{
+        width: 15%;    
+    }
+
+    .body .Link img {
+        margin-left: 130px;
+        margin-top: 40px;
+    }
+
+    .body .runtime {
+        display: flex;
+        margin-left: 130px;
+    }
+
+    .body .title h1{
+        margin-left: 130px;
+        font-size: 70px;
+    }
+
+    .body .rottenImdb {
+        margin-left: 125px;
+    }
+
+    .body .rottenImdb img {
+        width: 25px;
+        height: 20px;
+    }
+
+    .body .rottenImdb h2 {
+        width: 22px;
+        height: 12px;
+        font-size: 10px;
+    }
+
+    .body .favorite {
+        margin-left: 350px;
+        margin-top: -42px;
+    }
+
+    .body .favorite h2 {
+        height: 12px;
+        width: 130px;
+        font-size: 13px;
+    }
+
+    .body .favorite img {
+        margin-top: -10px;
+    }
+
+    .body .favorited {
+        margin-left: 360px;
+        margin-top: -57px;
+    }
+
+    .body .favorited h2 {
+        font-size: 14px;
+        height: 13px;
+        width: 80px;
+    }
+
+    .body .favorited img {
+        margin-top: 15px;
+    }
+
+
+    .body .plot h1 {
+        margin-left: 135px;
+        margin-top: 30px;
+    }
+
+    .body .plot h2 {
+        margin-left: 135px;
+        width: 400px;
+    }
+
+    .body .technical {
+        margin-left: -25px;
+        margin-top: 28px;
+        line-height: 0px;
+    }
+
+    .body .genre {
+        margin-left: -50px;
+    }
+
+    .body .director {
+        margin-left: -50px;
+    }
+
+    .body .poster {
+        left: 590px;
+        top: 210px;
+    }
+
+    .body .poster img {
+        width: 350px;
+        height: 500px;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .body .logo {
+        margin-left: -50px;
+        margin-top: 30px;
+    
+    }
+    .body .logo img{
+        width: 15%;    
+    }
+
+    .body .Link img {
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    .body .runtime {
+        display: flex;
+        margin-left: 70px;
+    }
+
+    .body .title h1{
+        margin-left: 70px;
+        font-size: 70px;
+    }
+
+    .body .rottenImdb {
+        margin-left: 65px;
+    }
+
+    .body .rottenImdb img {
+        width: 25px;
+        height: 20px;
+    }
+
+    .body .rottenImdb h2 {
+        width: 22px;
+        height: 12px;
+        font-size: 10px;
+    }
+
+    .body .favorite {
+        margin-left: 300px;
+        margin-top: -42px;
+    }
+
+    .body .favorite h2 {
+        height: 12px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .body .favorite img {
+        margin-top: -10px;
+        width: 15px;
+    }
+
+    .body .favorited {
+        margin-left: 300px;
+        margin-top: -54px;
+    }
+
+    .body .favorited h2 {
+        font-size: 12px;
+        height: 12px;
+        width: 60px;
+    }
+
+    .body .favorited img {
+        margin-top: 15px;
+        width: 15px;
+    }
+
+
+    .body .plot h1 {
+        margin-left: 85px;
+        margin-top: 30px;
+    }
+
+    .body .plot h2 {
+        margin-left: 85px;
+        width: 350px;
+    }
+
+    .body .technical {
+        margin-left: -73px;
+        margin-top: 28px;
+    }
+
+    .body .cast h2 {
+        font-size: 12px;
+        line-height: 20px;
+        width: 100px;
+
+    }
+
+    .body .genre h2 {
+        margin-left: 70px;
+        font-size: 12px;
+        line-height: 20px;
+        width: 50px;
+    }
+
+    .body .director h1 {
+        margin-left: 80px;
+    }
+
+    .body .director h2 {
+        margin-left: 80px;
+        font-size: 12px;
+        line-height: 20px;
+        width: 100px;
+    }
+
+    .body .poster {
+        left: 430px;
+        top: 210px;
+    }
+
+    .body .poster img {
+        width: 300px;
+        height: 420px;
+    }
+}
+
+@media(max-width: 425px) {
+
+    .body .logo {
+        margin-left: 20px;
+        margin-top: 10px;
+    
+    }
+    .body .logo img{
+        width: 15%;    
+    }
+
+    .body .Link img {
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    .body .runtime {
+        display: flex;
+        margin-left: 70px;
+        margin-top: 0px;
+    }
+
+    .body .title h1{
+        margin-left: 50px;
+        font-size: 70px;
+    }
+
+    .body .rottenImdb {
+        margin-left: 65px;
+        margin-top: 320px;
+    }
+
+    .body .rottenImdb img {
+        width: 25px;
+        height: 20px;
+    }
+
+    .body .rottenImdb h2 {
+        width: 22px;
+        height: 12px;
+        font-size: 10px;
+    }
+
+    .body .favorite {
+        margin-left: 300px;
+        margin-top: -42px;
+    }
+
+    .body .favorite h2 {
+        height: 12px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .body .favorite img {
+        margin-top: -10px;
+        width: 15px;
+    }
+
+    .body .favorited {
+        margin-left: 300px;
+        margin-top: -54px;
+    }
+
+    .body .favorited h2 {
+        font-size: 12px;
+        height: 12px;
+        width: 60px;
+    }
+
+    .body .favorited img {
+        margin-top: 15px;
+        width: 15px;
+    }
+
+
+    .body .plot h1 {
+        margin-left: 85px;
+        margin-top: 30px;
+    }
+
+    .body .plot h2 {
+        margin-left: 85px;
+        width: 350px;
+    }
+
+    .body .technical {
+        margin-left: -73px;
+        margin-top: 28px;
+    }
+
+    .body .cast h2 {
+        font-size: 12px;
+        line-height: 20px;
+        width: 100px;
+
+    }
+
+    .body .genre h2 {
+        margin-left: 70px;
+        font-size: 12px;
+        line-height: 20px;
+        width: 50px;
+    }
+
+    .body .director h1 {
+        margin-left: 80px;
+    }
+
+    .body .director h2 {
+        margin-left: 80px;
+        font-size: 12px;
+        line-height: 20px;
+        width: 100px;
+    }
+
+    .body .poster {
+        left: 100px;
+        top: 300px;
+    }
+
+    .body .poster img {
+        width: 250px;
+        height: 310px;
+    }
+}
+
+@media(max-width: 375px) {
+
+    .body .logo {
+        margin-left: 20px;
+        margin-top: 10px;
+    
+    }
+    .body .logo img{
+        width: 15%;    
+    }
+
+    .body .Link img {
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    .body .runtime {
+        display: flex;
+        margin-left: 70px;
+        margin-top: 0px;
+    }
+
+    .body .title h1{
+        margin-left: 50px;
+        margin-top: 20px;
+        font-size: 60px;
+    }
+
+    .body .rottenImdb {
+        margin-left: 25px;
+        margin-top: 360px;
+    }
+
+    .body .rottenImdb img {
+        width: 25px;
+        height: 20px;
+    }
+
+    .body .rottenImdb h2 {
+        width: 22px;
+        height: 12px;
+        font-size: 10px;
+    }
+
+    .body .favorite {
+        margin-left: 260px;
+        margin-top: -42px;
+    }
+
+    .body .favorite h2 {
+        height: 12px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .body .favorite img {
+        margin-top: -10px;
+        width: 15px;
+    }
+
+    .body .favorited {
+        margin-left: 280px;
+        margin-top: -54px;
+    }
+
+    .body .favorited h2 {
+        font-size: 12px;
+        height: 12px;
+        width: 60px;
+    }
+
+    .body .favorited img {
+        margin-top: 15px;
+        width: 15px;
+    }
+
+
+    .body .plot h1 {
+        margin-left: 55px;
+        margin-top: 30px;
+    }
+
+    .body .plot h2 {
+        margin-left: 55px;
+        width: 320px;
+        font-size: 15px;
+    }
+
+    .body .technical {
+        margin-left: -100px;
+        margin-top: 28px;
+    }
+
+    .body .cast h2 {
+        font-size: 12px;
+        line-height: 20px;
+        width: 100px;
+
+    }
+
+    .body .genre h2 {
+        margin-left: 70px;
+        font-size: 12px;
+        line-height: 20px;
+        width: 50px;
+    }
+
+    .body .director h1 {
+        margin-left: 80px;
+    }
+
+    .body .director h2 {
+        margin-left: 80px;
+        font-size: 12px;
+        line-height: 20px;
+        width: 100px;
+    }
+
+    .body .poster {
+        left: 80px;
+        top: 300px;
+    }
+
+    .body .poster img {
+        width: 250px;
+        height: 310px;
+    }
+}
+
+@media(max-width: 320px) {
+
+    .body .logo {
+        margin-left: 20px;
+        margin-top: 10px;
+    
+    }
+    .body .logo img{
+        width: 25%;    
+    }
+
+    .body .Link img {
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .body .runtime {
+        display: flex;
+        margin-left: 60px;
+        margin-top: 0px;
+    }
+
+    .body .runtime h1 {
+        font-size: 15px;
+    }
+
+    .body .runtime h2 {
+        font-size: 15px;
+    }
+
+    .body .runtime p {
+        font-size: 35px;
+        margin-top: -2px;
+    }
+
+    .body .title h1{
+        margin-left: 50px;
+        font-size: 50px;
+    }
+
+    .body .rottenImdb {
+        margin-left: 0px;
+        margin-top: 320px;
+    }
+
+    .body .rottenImdb img {
+        width: 25px;
+        height: 20px;
+    }
+
+    .body .rottenImdb h2 {
+        width: 22px;
+        height: 12px;
+        font-size: 10px;
+    }
+
+    .body .favorite {
+        margin-left: 235px;
+        margin-top: -42px;
+    }
+
+    .body .favorite h2 {
+        height: 12px;
+        width: 60px;
+        font-size: 9px;
+    }
+
+    .body .favorite img {
+        margin-top: -10px;
+        width: 14px;
+    }
+
+    .body .favorited {
+        margin-left: 240px;
+        margin-top: -56px;
+    }
+
+    .body .favorited h2 {
+        font-size: 12px;
+        height: 12px;
+        width: 60px;
+    }
+
+    .body .favorited img {
+        margin-top: 15px;
+        width: 15px;
+    }
+
+
+    .body .plot h1 {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .body .plot h2 {
+        margin-left: 30px;
+        width: 270px;
+    }
+
+    .body .technical {
+        margin-left: -123px;
+        margin-top: 28px;
+    }
+
+    .body .cast h2 {
+        font-size: 12px;
+        line-height: 20px;
+        width: 100px;
+
+    }
+
+    .body .genre h2 {
+        margin-left: 70px;
+        font-size: 12px;
+        line-height: 20px;
+        width: 50px;
+    }
+
+    .body .director h1 {
+        margin-left: 70px;
+    }
+
+    .body .director h2 {
+        margin-left: 70px;
+        font-size: 12px;
+        line-height: 20px;
+        width: 100px;
+    }
+
+    .body .poster {
+        left: 75px;
+        top: 280px;
+    }
+
+    .body .poster img {
+        width: 200px;
+        height: 280px;
+    }
+}

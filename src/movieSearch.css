@@ -1,0 +1,378 @@
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.body .logo img {
+    width: 180px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.body .textInput {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.body .textInput .inputBox {
+    width: 1600px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 30px;
+    position: relative;
+    border: none;
+    background-image: url('../src//assets/1.Icons/icon-magnifier-grey.svg');
+    background-position: 10px 15px;
+    background-size: 21px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.body .emptyPic {
+    text-decoration: none;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+.body .emptyPic img{
+    width: 50%;
+}
+
+.body .emptyPic h1 {
+    color: white;
+    margin-left: 150px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body .emptyPic h3 {
+    color: darkgrey;
+    margin-left: 220px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body .movies ul {
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-top: 40px;
+    list-style-type: none;
+    list-style: none;
+}
+
+.body .movies ul li img{
+    float: left;
+    margin: 10px 10px 0 20px;
+    width: 242px;
+    height: 346px;
+    border-radius: 5px;
+}
+
+.body .movies .favoriteHeart {
+    width: 30px;
+    display: flex;
+    margin-left: -50px;
+    margin-top: -135px;
+}
+
+.body .movies ul li img:hover{
+    opacity: 0.4;
+}
+
+@media(max-width: 2560px) {
+    .body .logo img {
+        margin-left: 470px;
+    }
+
+    .body .emptyPic {
+        margin-left: 770px;
+    }
+
+    .body .emptyPic h1 {
+        margin-left: 300px;
+    }
+
+    .body .emptyPic h3 {
+        margin-left: 360px;
+    }
+
+    .body .movies ul {
+        margin-left: 400px;
+        margin-right: 250px;
+    }
+}
+
+@media(max-width: 1920px) {
+    .body .logo img {
+        margin-left: 140px;
+    }
+
+    .body .emptyPic {
+        margin-left: 570px;
+    }
+
+    .body .emptyPic h1 {
+        margin-left: 160px;
+    }
+
+    .body .emptyPic h3 {
+        margin-left: 220px;
+    }
+
+    .body .movies ul {
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+}
+
+@media(max-width: 1680px) {
+    .body .logo img {
+        margin-left: 140px;
+    }
+
+    .body .textInput .inputBox {
+        width: 1100px;
+    }
+
+    .body .emptyPic {
+        margin-top: 50px;
+        margin-left: 570px;
+    }
+
+    .body .emptyPic h1 {
+        margin-left: 160px;
+    }
+
+    .body .emptyPic h3 {
+        margin-left: 220px;
+    }
+
+    .body .movies ul {
+        margin-left: 240px;
+        margin-right: 200px;
+    }
+}
+
+@media(max-width: 1440px) {
+    .body .logo img {
+        margin-left: 140px;
+    }
+
+    .body .textInput .inputBox {
+        width: 1100px;
+    }
+
+    .body .emptyPic {
+        margin-left: 420px;
+        margin-top: 70px;
+    }
+
+    .body .emptyPic h1 {
+        margin-left: 90px;
+    }
+
+    .body .emptyPic h3 {
+        margin-left: 150px;
+    }
+
+    .body .movies ul {
+        margin-left: 120px;
+        margin-right: 90px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .body .logo img {
+        margin-left: 90px;
+    }
+
+    .body .textInput .inputBox {
+        width: 800px;
+    }
+
+    .body .emptyPic {
+        margin-left: 300px;
+        margin-top: 70px;
+    }
+
+    .body .emptyPic h1 {
+        margin-left: 0px;
+    }
+
+    .body .emptyPic h3 {
+        margin-left: 60px;
+    }
+
+    .body .movies ul {
+        margin-left: 60px;
+        margin-right: 90px;
+    }
+}
+
+@media(max-width: 768px) {
+    .body .logo img {
+        margin-left: 110px;
+    }
+
+    .body .textInput .inputBox {
+        width: 500px;
+    }
+
+    .body .emptyPic {
+        margin-left: 230px;
+        margin-top: 70px;
+    }
+
+    .body .emptyPic h1 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .body .emptyPic h3 {
+        font-size: 13px;
+        margin-left: 50px;
+    }
+
+    .body .movies ul {
+        margin-left: 70px;
+        margin-right: 90px;
+    }
+}
+
+@media(max-width: 425px) {
+    .body .logo img {
+        margin-left: 50px;
+    }
+
+    .body .textInput .inputBox {
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .body .emptyPic {
+        margin-left: 120px;
+        margin-top: 70px;
+    }
+
+    .body .emptyPic h1 {
+        font-size: 20px;
+        margin-left: -30px;
+    }
+
+    .body .emptyPic h3 {
+        font-size: 13px;
+        margin-left: 0px;
+    }
+
+    .body .movies ul {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .body .movies ul li img{
+        float: left;
+        width: 150px;
+        height: 190px;
+        margin: 5px 5px 10px 10px;
+        border-radius: 5px;
+    }
+
+    .body .movies .favoriteHeart {
+        width: 17px;
+        margin-left: -30px;
+        margin-top: -70px;
+    }
+
+    @media(max-width: 375px) {
+        .body .logo img {
+            margin-left: 40px;
+            width: 120px;
+        }
+    
+        .body .textInput .inputBox {
+            width: 250px;
+            font-size: 17px;
+        }
+    
+        .body .emptyPic {
+            margin-left: 120px;
+            margin-top: 50px;
+        }
+    
+        .body .emptyPic h1 {
+            font-size: 16px;
+            margin-left: -30px;
+        }
+    
+        .body .emptyPic h3 {
+            font-size: 10px;
+            margin-left: 0px;
+        }
+    
+        .body .movies ul {
+            margin-left: -13px;
+            margin-right: 0px;
+        }
+    
+        .body .movies ul li img{
+            float: left;
+            width: 150px;
+            height: 190px;
+            margin: 5px 5px 10px 10px;
+            border-radius: 5px;
+        }
+    
+        .body .movies .favoriteHeart {
+            width: 17px;
+            margin-left: -30px;
+            margin-top: -70px;
+        }
+    }
+
+    @media(max-width: 320px) {
+        .body .logo img {
+            width: 100px;
+            margin-left: 40px;
+        }
+    
+        .body .textInput .inputBox {
+            width: 200px;
+            font-size: 13px;
+            background-size: 18px;
+        }
+    
+        .body .emptyPic {
+            margin-left: 90px;
+            margin-top: 50px;
+        }
+    
+        .body .emptyPic h1 {
+            font-size: 16px;
+            margin-left: -30px;
+        }
+    
+        .body .emptyPic h3 {
+            font-size: 10px;
+            margin-left: 0px;
+        }
+    
+        .body .movies ul {
+            margin-left: 5px;
+            margin-right: 0px;
+        }
+    
+        .body .movies ul li img{
+            float: left;
+            width: 100px;
+            height: 150px;
+            margin: 0px 5px 10px 10px;
+            border-radius: 5px;
+        }
+    
+        .body .movies .favoriteHeart {
+            width: 13px;
+            margin-left: -25px;
+            margin-top: -65px;
+        }
+    }
+
+}
